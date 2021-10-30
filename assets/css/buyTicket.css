@@ -1,0 +1,166 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: montserrat;
+}
+
+.body{
+    padding: 64px 270px;
+}
+
+.contains{
+    width: 100%;
+}
+
+.calendar{
+    display: flex;
+    position: relative;
+}
+
+.calendar  i{
+    margin: 0 12px;
+    font-size: 50px;
+    color: blueviolet;
+}
+
+.calendar-month{
+    display: flex;
+    position: absolute;
+    top: -40px;
+}
+
+.calendar-month h1{
+    font-size: 30px;
+    border-bottom:2px solid black;
+    padding-bottom: 8px;
+    margin-right: 12px;
+}
+
+.calendar-month span{
+    margin: 0 800px 0 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: #adadad;
+    padding-top: 10px;
+}
+
+.calendar-weekdays-list{
+    padding-left: 0;
+    display: inline;
+}
+
+.calendar-weekdays-item{
+    display: inline;
+    list-style: none;
+    padding: 0;
+    font-size: 20px;
+}
+
+.calendar-weekdays-item:not(:last-child){
+    margin-right: 74px;
+}
+
+.ticket_step{
+    width: 100%;
+    border-top: 3px solid black;
+    margin-top: 24px;
+    display: flex;
+}
+
+.ticket_step > div{
+    width: 50%;
+}
+
+.ticket_step  h1{
+    padding: 16px;
+    font-size: 24px;
+    border-bottom: 1px solid #adadad;
+}
+
+.ticket_step  h3{
+    padding: 16px;
+    font-size: 16px;
+    border-bottom: 1px solid #adadad;
+}
+
+.ticket_step  li{
+    font-size: 16px;
+    list-style: none;
+}
+
+.step-theaters{
+    border-right: 1px solid #adadad;
+}
+
+.theaters-rom{
+    padding: 12px 16px;
+}
+
+.rom-item{
+    display: inline;
+}
+
+.rom-item:first-child{
+    padding-right: 30px;
+    border-right: 1px solid #adadad;
+}
+
+.rom-item:not(:first-child){
+    margin-left: 30px;
+}
+
+/* thearter */
+
+.thearters-address{
+    display: flex;
+    width: 100%;
+}
+
+.thearters-address > div{
+    width: 50%;
+}
+
+.address-list{
+    padding-left: 16px;
+}
+
+.address-item{
+    color: #fff;
+    text-align: center;
+    padding: 12px 0;
+    background-color: rgb(201, 0, 135);
+    border-right: 1px solid #adadad;
+    border-left: 1px solid #adadad;
+    border-top: 1px solid #adadad;
+    cursor: pointer;
+}
+
+
+.address-item:hover{
+    background-color: #e6266e;
+    color: #fff;
+}
+/* Movies */
+.movie-item a{
+    text-decoration: none;
+    display: flex;
+    margin: 30px;
+}
+
+.movies-name:hover span{
+    color: #e6266e;
+}
+
+.movie-item div{
+    background-color: #e6266e;
+    color: white;
+    border-radius: 8px;
+    padding: 2px;
+    margin-right: 12px;
+}
+
+.movie-item span{
+    color: black;
+    font-size: 16px;
+}

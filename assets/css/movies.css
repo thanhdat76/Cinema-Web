@@ -1,0 +1,259 @@
+*{
+    border: 0;
+    margin: 0;;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.movies_body-title{
+    background-color: black;
+    height: 44px;
+    width: 100%;
+    padding: 16px 8px;
+}
+
+.movies_body-title span{
+    font-size: 16px;
+    align-items: center;
+    color: #adadad;
+}
+
+
+.movies_body-title > span{
+    font-size: 16px;
+    color: white;
+}
+
+/* list tag  */
+
+.body-contains{
+    width: 1140px;
+    margin: 16px auto;
+}
+
+.contain-title{
+    background: linear-gradient(90deg, rgba(64, 26, 130, 1) 0%, rgba(201, 0, 135, 1) 100%);
+    width: 1110px;
+    height: 44px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 4px;
+    color: #adadad;
+    font-size: 16px;
+    padding-top: 14px;
+}
+
+.contain_tag-movies{
+    margin-top: 54px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contain_tag-movie{
+    width: 570px;
+    height: 332px;
+    padding: 0 15px;
+
+}
+
+.tag-movie{
+    display: flex;
+    border: 1px solid #e9e6e6;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+    /* -webkit-transition-duration: 0.3s; */
+    transition-duration: 0.3s;
+    /* -webkit-transition-property: box-shadow, transform; */
+    transition-property: box-shadow, transform;
+}
+
+.tag-movie:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    /* -webkit-transform: scale(1.1); */
+    transform: scale(1.005);
+}
+
+.tag-header img{
+    height: 100%;
+    width: 190px;
+}
+
+/* conten tag */
+
+.tag-content{
+    padding: 16px;
+}
+
+.tag_content-name{
+    text-decoration: none;
+}
+
+.tag_content-name h2{
+    color: rgb(64, 26, 130);
+    font-size: 32px;
+    font-weight: 300;
+    margin:16px 0;
+}
+
+.tag_content-meta{
+    font-size: 14px;
+    color: #adadad;
+    margin: 12px 0;
+}
+
+.tag_content-meta span{
+    margin-right: 18px;
+}
+
+.tag-content p{
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 24px 0 0 0 ;
+}
+
+/* Movie Single */
+.movie-buttons{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.movie-button{
+    background-color: #c90087;
+    padding: 12px;
+    /* border-radius: 20px !important; */
+    margin: 24px;
+    border-radius: 4px;
+}
+
+.movie-button:not(:first-child){
+    background-color: #3d60d3;
+}
+
+.movie-button:last-child{
+    background-color: #f31750;
+}
+
+.movie-button, .movie-button i{
+    font-size: 16px;
+    color: white;
+}
+
+.movie_card{
+    width: 1200px;
+    margin: 20px auto;
+    margin-bottom: 100px;
+    /* box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform; */
+}
+/* 
+.movie_card:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.005);
+} */
+
+.info_section{
+    height: 450px;
+    width: 100%;
+    background-image: url(/assets/img/Godzilla-VS-Kong-Poster-Header.png);
+    background-color: rgba(0, 0, 0, 1);
+    background-size: 100%;
+    border-radius: 4px;
+    box-shadow:600px 0px 40px black inset;;
+}
+
+.section_header{
+    padding: 25px;
+}
+
+.section_header h1{
+    margin-top: 12px;
+    margin-left: 95px;
+    color: #fff;
+    font-size: 34px;
+    font-weight: 400;
+}
+
+.section_header h1{
+    margin-top: 12px;
+    margin-left: 95px;
+    color: #fff;
+    font-size: 28px;
+}
+
+.section_header span{
+    /* margin-top: 24px; */
+    color: #cee4fd;
+    font-size: 16px;
+}
+
+.section-header-clock{
+    color: #fff;
+    font-size: 16px;
+    border: 1px solid #adadad;
+    padding: 4px;
+    border-radius: 4px;
+    margin-left: 32px;
+    margin-right: 24px;
+}
+
+.section_header i{
+    margin-top: 42px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.section_header span{
+    /* margin-top: 24px; */
+    color: #cee4fd;
+    font-size: 16px;
+}
+
+.section_header img{
+    height: 120px;
+    float: left;
+}
+
+
+.section_sect{
+    padding: 24px;
+    width: 50%;
+}
+
+.text{
+    line-height: 24px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.watch_btn{
+    padding: 8px;
+    color: #fff;
+    border: 1px solid #800080;
+    border-radius: 2px;
+    font-size: 16px;
+    margin: 0 24px;
+    cursor: pointer;
+}
+
+.buy_btn{
+    padding: 8px;
+    color: #fff;
+    background-color: #800080;
+    border-radius: 2px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.watch_btn span, .buy_btn span{
+    font-weight: 300;
+    margin-left: 12px;
+}
+
+.buy_btn span{
+    font-weight: 300;
+}

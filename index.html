@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Star</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.15.2-web/css/all.min.css">
+</head>
+
+<body>
+    <div class="app">
+        <div class="header">
+            <nav class="navbar">
+                <div class="nav-left">
+                    <a class="nav-logo" href="index.html">
+                        <span>SuperStar</span>
+                        <!-- <img class="nav-logo-img" src="/assets/img/movie-time.png" alt=""> -->
+                    </a>
+                    <ul class="nav-category">
+                        <li class="nav-category-item">
+                            <a href="/index.html">
+                                <i class="fas fa-home"></i>
+                                Home
+                            </a>
+                        </li>
+                        <li class="nav-category-item">
+                            <a href="/movies.html">
+                                <i class="fas fa-film"></i>
+                                Movies
+                            </a>
+                        </li>
+                        <li class="nav-category-item">
+                            <a href="buyTicket.html">
+                                <i class="fas fa-ticket-alt"></i>
+                                Buy Ticket
+                            </a>
+                        </li>
+                        <li class="nav-category-item">
+                            <a href="/lost-your-way.html">
+                                <i class="fas fa-clock"></i>
+                                Upcoming
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav-right">
+                    <div class="nav-input">
+                        <input type="text" placeholder="Search movies" class="nav-input-form">
+                        <i id="nav-search" class="fas fa-search"></i>
+                    </div>
+                    <a href="login.html"><i class="far fa-user-circle far-Login"></i></a>
+                </div>
+            </nav>
+        </div>
+        <div class="body">
+            <!-- Carousel-slide -->
+            <div class="carousel-slider">
+                <div class="carousel-slides">
+                    <div class="carousel-slide">
+                        <img id="lastClone" class="banner-img" src="/assets/img/picture-banner-3.png" alt="">
+                        <img class="banner-img" src="/assets/img/picture-banner-1.jpg" alt="">
+                        <img class="banner-img" src="/assets/img/picture-banner-2.jpg" alt="">
+                        <img class="banner-img" src="/assets/img/picture-banner-3.png" alt="">
+                        <img id="firstClone" class="banner-img" src="/assets/img/picture-banner-1.jpg" alt="">
+                    </div>
+                    <i id="prevBtn" class="fas fa-chevron-left arrow-left"></i>
+                    <i id="nextBtn" class="fas fa-chevron-right arrow-right"></i>
+                </div>
+            </div>
+            <!-- contains movie listings  -->
+            <div class="current-movie-list">
+                <div class="current-list__info">
+                    <div class="info__underlined" style="width: 50px;"></div>
+                    <h2>NOW</h2>
+                    <br>
+                    <span>SHOWING</span>
+                    <p>Blockbusters now on cinema near you, buy ticket today and enjoy.</p>
+                    <div class="info__underlined" style="width: 200px;"></div>
+                </div>
+                <div class="current-movies-contains">
+                    <div class="current-contain">
+                        <div class="current-movie">
+                            <img src="/assets/img/movie pictures/n-1-kong.png" alt="">
+                            <div class="current-movie-name">
+                                <h2>Godzilla vs Kong</h2>
+                            </div>
+                            <div class="current-hover">
+                                <i class="far fa-play-circle"></i>
+                                <a href="/singleMovie.html">
+                                    <div>Buy Ticket</div>
+                                </a>
+                            </div>
+                            <div class="current-trailer">
+                                <div class="trailer">
+                                    <iframe width="800" height="500" src="https://www.youtube.com/embed/odM92ap8_c0"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                    <i class="far fa-window-close"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="current-movie">
+                            <img src="/assets/img/movie pictures/n-2-50sacthai.jpg" alt="">
+                            <div class="current-movie-name">
+                                <h2>Fifty Shades Darker</h2>
+                            </div>
+                            <div class="current-hover">
+                                <i class="far fa-play-circle"></i>
+                                <a href="/singleMovie.html">
+                                    <div>Buy Ticket</div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="current-contain">
+                        <div class="current-movie">
+                            <img src="/assets/img/movie pictures/n-3-tom&jerry.jpeg" alt="">
+                            <div class="current-movie-name">
+                                <h2>Tom & Jerry: Quậy tung New York</h2>
+                            </div>
+                            <div class="current-hover">
+                                <i class="far fa-play-circle"></i>
+                                <a href="/singleMovie.html">
+                                    <div>Buy Ticket</div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="current-movie">
+                            <img src="/assets/img/movie pictures/n-4-monter-hunter.jpg" alt="">
+                            <div class="current-movie-name">
+                                <h2>Monster Hunter</h2>
+                            </div>
+                            <div class="current-hover">
+                                <i class="far fa-play-circle"></i>
+                                <a href="/singleMovie.html">
+                                    <div>Buy Ticket</div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="current-contain">
+                        <div class="current-movie">
+                            <img src="/assets/img/movie pictures/n-5-big-leg.jpg" alt="">
+                            <div class="current-movie-name">
+                                <h2>Bigfoot Family</h2>
+                            </div>
+                            <div class="current-hover">
+                                <i class="far fa-play-circle"></i>
+                                <a href="/singleMovie.html">
+                                    <div>Buy Ticket</div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="current-movie">
+                            <img src="/assets/img/movie pictures/n-6-theCon-Heartist.jpg" alt="">
+                            <div class="current-movie-name">
+                                <h2>The Con-heartist</h2>
+                            </div>
+                            <div class="current-hover">
+                                <i class="far fa-play-circle"></i>
+                                <a href="/singleMovie.html">
+                                    <div>Buy Ticket</div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="current-contain">
+                        <div class="current-movie">
+                            <img src="/assets/img/movie pictures/n-7.jpg" alt="">
+                            <div class="current-movie-name">
+                                <h2>Pal Springs</h2>
+                            </div>
+                            <div class="current-hover">
+                                <i class="far fa-play-circle"></i>
+                                <a href="/singleMovie.html">
+                                    <div>Buy Ticket</div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="current-movie">
+                            <img src="/assets/img/movie pictures/n-8-winter-solder.jpg" alt="">
+                            <div class="current-movie-name">
+                                <h2>The Falcon and Winter Solder</h2>
+                            </div>
+                            <div class="current-hover">
+                                <i class="far fa-play-circle"></i>
+                                <a href="/singleMovie.html">
+                                    <div>Buy Ticket</div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="current-contain">
+                        <div class="current-movie">
+                            <img src="/assets/img/movie pictures/n-9.jpg" alt="">
+                            <div class="current-movie-name">
+                                <h2>Road to Rebirth</h2>
+                            </div>
+                            <div class="current-hover">
+                                <i class="far fa-play-circle"></i>
+                                <a href="/singleMovie.html">
+                                    <div>Buy Ticket</div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="current-movie">
+                            <img src="/assets/img/movie pictures/n-10.jpg" alt="">
+                            <div class="current-movie-name">
+                                <h2>Secret Magic Control Agency(Seacon 1)</h2>
+                            </div>
+                            <div class="current-hover">
+                                <i class="far fa-play-circle"></i>
+                                <a href="/singleMovie.html">
+                                    <div>Buy Ticket</div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- coming soon list -->
+            <div class="movies-coming">
+                <div class="coming-title">
+                    <h2>Coming Soon</h2>
+                    <div></div>
+                    <p>Let's wait together</p>
+                </div>
+                <div class="coming-contains">
+                    <div class="coming-contain">
+                        <div class="coming-contain-img">
+                            <img src="/assets/img/upcoming/c-1-Raya And The Last Dragon.jpg" alt="">
+                            <div class="current-hover">
+                                <i class="far fa-play-circle"></i>
+                            </div>
+                        </div>
+                        <div class="coming-contain-name">
+                            <h2>Raya And The Last Dragon</h2>
+                            <p>1HR 54 MIN <br> Released Mar 5, 2021</p>
+                        </div>
+                        <div id="id1" class="current-trailer">
+                            <div class="trailer">
+                                <iframe width="800" height="500" src="https://www.youtube.com/embed/1VIZ89FEjYI"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                                <i class="far fa-window-close"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="coming-contain">
+                        <div class="coming-contain-img">
+                            <img src="/assets/img/upcoming/c-1-Nobody.webp" alt="">
+                            <div class="current-hover">
+                                <i class="far fa-play-circle"></i>
+                            </div>
+                        </div>
+                        <div class="coming-contain-name">
+                            <h2>Nobody</h2>
+                            <p>1HR 32 MIN <br> Released Mar 26, 2021</p>
+                        </div>
+                    </div>
+                    <div class="coming-contain">
+                        <div class="coming-contain-img">
+                            <img src="/assets/img/upcoming/c-3-Chaos Walking.webp" alt="">
+                            <div class="current-hover">
+                                <i class="far fa-play-circle"></i>
+                            </div>
+                        </div>
+                        <div class="coming-contain-name">
+                            <h2>Chaos Walking</h2>
+                            <p>1HR 54 MIN <br> Released Mar 26, 2021</p>
+                        </div>
+                    </div>
+                    <div class="coming-contain">
+                        <div class="coming-contain-img">
+                            <img src="/assets/img/movie pictures/n-3-tom&jerry.jpeg" alt="">
+                            <div class="current-hover">
+                                <i class="far fa-play-circle"></i>
+                            </div>
+                        </div>
+                        <div class="coming-contain-name">
+                            <h2>Tom and Jerry</h2>
+                            <p>1HR 54 MIN <br> Released Mar 7, 2021</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div id="test">
+
+            </div>
+            <div class="footer-left">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="">About us</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="">Refunds</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="">Terms and Privacy</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="">Contact</a>
+                    </li>
+                </ul>
+                <p>Nguyen Thanh Dat © 2021.</p>
+            </div>
+            <div class="footer-right">
+                <ul class="footer-list-icon">
+                    <li class="icon-item">
+                        <i class="fab fa-instagram"></i>
+                    </li>
+                    <li class="icon-item">
+                        <i class="fab fa-facebook"></i>
+                    </li>
+                    <li class="icon-item">
+                        <i class="fab fa-youtube"></i>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="/assets/js/main.js"></script>
+</body>
+
+</html>
